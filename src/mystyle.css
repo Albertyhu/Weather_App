@@ -1,0 +1,119 @@
+body {
+font-family: Verdana;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+#clearSky {
+    background-image: url('./images/clearsky.jpg');
+}
+#fewClouds {
+    background-image: url('./images/few_clouds.jpg');
+}
+#scatteredClouds {
+    background-image: url('./images/scattered_clouds.jpg');
+}
+#brokenClouds
+{
+    background-image: url('./images/brokenclouds.jpg');
+}
+#rain {
+    background-image: url('./images/rain.jpg');
+}
+#thunder {
+    background-image: url('./images/thunder.jpg');
+}
+#snow {
+    background-image: url('./images/snow.jpg');
+}
+#mist {
+    background-image: url('./images/mist.jpg');
+}
+
+#mainContainer {
+    width: 100%;
+    height: 100vh;
+    min-width: 600px;
+    display: flex;
+    
+}
+#innerContainer {
+    width: 90%;
+    height: 85%;
+    margin: auto;
+    display: block;
+    background-color: rgba(255,255,255,0.3);
+}
+
+#locationContainer {
+    margin-top: 10px;
+    height: 10%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#lat p, #long p {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#weatherContainer {
+    margin-top: 10px;
+    height: 20%;
+    text-align: center;
+    justify-content: center;
+}
+
+#innerWeatherContainer {
+    width: 90%;
+    height: 90%; 
+    margin: auto; 
+    
+}
+#dataContainer {
+width: 100%;
+}
+#weatherContainerOne, #weatherContainerTwo {
+display: flex; 
+margin: auto;
+justify-content: space-evenly;
+
+}
+
+#weatherContainerOne div, #weatherContainerTwo div {
+    display: flex; 
+
+}
+
+#weatherContainerOne p, #weatherContainerTwo p {
+    align-content: center;
+    justify-content: center;
+    position: relative;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.subtitle {
+font-weight: bold;
+}
+
+#cityContainer {
+min-height: 50px; 
+height: 50px;
+width: 100%; 
+text-align: center;
+margin-bottom: 30px;
+}
+
+#cityTitle{
+}
+
+#cityName {
+  
+}
+
+#cityName {
+    font-weight: bold;
+    font-size: 20px;
+}
